@@ -82,6 +82,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$rootProject.kotlinVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutinesVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutinesVersion"
+    implementation "com.google.android.material:compose-theme-adapter:$rootProject.composeVersion"
 
     // Compose
     implementation "androidx.compose.runtime:runtime:$rootProject.composeVersion"
